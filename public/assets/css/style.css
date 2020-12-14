@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+nav {
+    display: flex;
+    width: 80%;
+    height: 7vh;
+    margin-left: 10%;
+    text-align: center;
+}
+nav img{
+    height: 3vh;
+    /* margin-top: 1.5%; */
+}
+
+nav a:nth-of-type(1){
+    padding-top: 2%;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+    margin-left: 8%;
+    font-size: 20px;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav button{
+    border: none;
+    background: none;
+    /* margin-left: 5%; */
+    margin-top: 1.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+#sign{
+    margin-left: 8%;
+    font-size: 20px;
+}
+#start{
+    background-color: #01996D;
+    color: white;
+    text-align: center;
+   border: 1px solid black;
+   padding: 1% 3% 3% 3%;
+   border-radius: 7px;
+   font-size: 20px;
+   margin-top: 1%;
+   margin-left: 1%;
+}
+
+#Beaware {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/BG.png) center/ cover no-repeat;
+}
+
+#Beaware ul{
+    list-style-type: none;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.be ,.mange{
+    font-size: 65px;
+    color: #01996D;
+
+}
+.everyone{
+    width: 30%;
+    font-size: 20px;
+    line-height: 33px;
+    padding:1% 0% 5% 0%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.479);
+    font-family: 'Lato', sans-serif;
+}
+.find {
+    width: 12%;
+    text-align: center;
+    color: white;
+    background-color: #01996D;
+   padding: 1.5%;
+   border: 1px solid black;
+   border-radius: 6px;
+   font-size: 20px;
+   font-family: 'Lato', sans-serif;
+}
+
+#HomeMain{
+    width: 80%;
+}
+
+#HowItWorks{
+    display: flex;
+    padding-top: 10%;
+    font-size: 24px;
+}
+#HowItWorks div{
+    width: 50%;
+}
+
+.understand ul{
+   padding-left: 20%;
+    list-style-type: none;
+}
+
+.thestress{
+    font-size: 50px;
+    color: #01996D;
+}
+
+.alivioText p{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 8%;
+    line-height: 26px;
+    padding-left: 30%;
+
+}
+
+#HomeImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 7%;
+}
+
+#HomeImg ul{
+    list-style-type: none;
+    padding-top: 3%;
+}
+
+.FirstDiv{
+    margin-top: 10%;
+}
+
+.Pers{
+    font-size: 30px;
+    background: url(../img/01.png)left/ 40% no-repeat;
+    height: 10vh;
+   text-align: center;
+   padding-right: 30%;
+   padding-top: 25%;
+  
+}
+
+.SecondDiv{
+    margin-top: 60%;
+}
+
+.answer , .WriteDraw, .nowYou {
+    font-size: 20px;
+    width: 90%;
+    line-height: 30px;
+    padding-bottom: 15%;
+    font-family: 'Lato', sans-serif;
+}
+
+.write{
+    font-size: 30px;
+    background: url(../img/02.png)left/ 40% no-repeat;
+    height: 10vh;
+    text-align: center;
+    padding-top: 25%;
+    padding-left: 10%;
+}
+
+.TherdDiv{
+    margin-top: 15%;
+}
+.aliv{
+    font-size: 30px;
+    background: url(../img/03.png)left/ 40% no-repeat;
+    height: 10vh;
+    text-align: center;
+    padding-top: 15%;
+    padding-right: 24%;
+   
+
+}
+footer{
+    background-color: #025c42;
+    height: 70vh;
+}
+
+footer ul{
+    list-style-type: none;
+    line-height: 80px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* //////// SOLUTION //////// */
+#SolutionMain{
+    display: flex;
+    height: 90vh;
+}
+
+#SolutionMain ul{
+    list-style-type: none;
+
+}
+#SolutionMain li:nth-of-type(1) ,li:nth-of-type(2){
+    font-size: 50px;
+    color: black;
+}
+.seeHow{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 20px;
+}
+
+#SolutionMain ul{ 
+    /* text-align: center; */
+   padding-top: 40%;
+  
+}
+.video img{
+    height: 60vh;
+    padding-top: 15%;
+    padding-left: 20%;
+}
+.lets{
+    background-color: #01996D;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /* padding: 1% 2% 1% 2%; */
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* /////// COMMUNITY /////// */
+#CommunityMain{
+    display: flex;
+    height: 150vh;
+    width: 90%;
+    padding-left: 20%;
+    position: relative;
+}
+
+.Card img{
+   border-radius: 5px;
+    background: rgba(1, 153, 109, 0.2);
+    background-size: auto;
+    margin-top: 15%;
+}
+
+#CommunityMain ul{
+    list-style-type: none;
+    padding-top: 10%;
+    /* padding-right: 5%;  */
+} 
+
+.youTell, .Wemake{
+    color: #01996D;
+    font-size: 60px;
+
+}
+.every , .every2{
+    font-size: 20px;
+    line-height: 33px;
+    font-family: 'Lato', sans-serif;
+}
+.every2{
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+.find2{
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: #01996D;
+    padding: 1.5%;
+     border: 1px solid black;
+     border-radius: 6px;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     
+}
+
+.BoxMikayla{
+    box-sizing: border-box;
+    box-shadow: currentColor;
+    height: 55vh;
+    width: 50vh;
+    background-color: white;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: -12%;
+    text-align: center;
+    padding-right: 2%;
+}
+
+.BoxMikayla ul{
+    padding-top: -2%;
+}
+.BoxMikayla img{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+}
+.Customized{
+    border-bottom: 1px solid black;
+  
+}
+
+#Section404{
+    height: 120vh;
+    width: 100%;
+    background: url(../img/Woman404.png) center/ 50% no-repeat;
+}
