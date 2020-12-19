@@ -2,48 +2,25 @@ const express = require('express')
 const app = express()
 app.use(express.static('public'))
 
-
-app.get('/', (req,res) =>{
-    res.sendFile('./views/index.html',{ root: __dirname })
-    
+app.get('/', (req,res) => {
+    res.sendFile('./views/index.html', { root: __dirname })
 })
 
-app.get('/Whyalivio', (req,res)=> {
+app.get('/Whyalivio', (req,res) => {
     res.sendFile('./views/Whyalivio.html', ({root: __dirname }))
 })
-app.get('/Solution', (req,res)=> {
+app.get('/Solution', (req,res) => {
     res.sendFile('./views/Solution.html', ({root: __dirname }))
 })
-app.get('/Community', (req,res)=> {
+app.get('/Community', (req,res) => {
     res.sendFile('./views/Community.html', ({root: __dirname }))
 })
 
-
-app.get('/pricing', (req,res)=> {
+app.get('/pricing', (req,res) => {
     res.sendFile('./views/pricing.html', ({root: __dirname }))
 })
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.use((req,res) =>{
+app.use((req,res) => {
     res.status(404).sendFile('./views/404.html', { root: __dirname })
 })
 
