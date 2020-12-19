@@ -263,7 +263,7 @@ footer a{
 #CommunityMain ul{
     list-style-type: none;
     padding-top: 10%;
-    /* padding-right: 5%;  */
+    text-align: center;
 } 
 
 .youTell, .Wemake{
@@ -291,7 +291,6 @@ footer a{
      border-radius: 6px;
      font-size: 20px;
      font-family: 'Lato', sans-serif;
-     
 }
 
 .BoxMikayla{
